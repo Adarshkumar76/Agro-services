@@ -106,7 +106,7 @@ export const registerFormControls = [
       path: "/shop/listing",
     },
     {
-      id: "vegetables",
+      id: "vegetable",
       label: "Vegetables",
       path: "/shop/listing",
     },
@@ -134,7 +134,7 @@ export const registerFormControls = [
   
   export const categoryOptionsMap = {
     fruits: "Fruits",
-    vegetables: "Vegetables",
+    vegetables: "Vegetable",
     nuts: "Nuts",
     spices: "Spices",
     dairy: "Dairy",
@@ -144,7 +144,7 @@ export const registerFormControls = [
   export const filterOptions = {
     category: [
       { id: "fruits", label: "Fruits" },
-      { id: "vegetables", label: "Vegetables" },
+      { id: "vegetable", label: "Vegetables" },
       { id: "nuts", label: "Nuts" },
       { id: "spices", label: "Spices" },
       { id: "dairy", label: "Dairy" },
